@@ -1,24 +1,40 @@
-# resume_analysis
-# Project Synopsis
-Here you can check your resume with the job description and get the score and insights such as:
-* ATS Score of the resume
-* Probability of getting hired
-* Keyword analysis
-* SWOT Analysis
-* Suggestions for overall improvement
+# Resume Analysis GenAI
 
-## Steps for creating the project
-1. Create the virtual environment - `python -m venv .venv`
-2. Activate the virtual environment - `source .venv/bin/activate`
-3. Create the .env file to store the api key.
-4. Create the requirements.txt file and add the libraries for installation - `pip install -r requirements.txt`
+🚀 **AI-powered Resume Analyzer built with Streamlit + GenAI** to help candidates optimize their resumes for **ATS (Applicant Tracking Systems)** and targeted job applications.
 
+![Resume Analysis GenAI](https://resumeanalysis-genai.streamlit.app/_static/favicon.png)
 
-# Architecture 
-* app.py:front end creation and output of the genai model 
-it will have the feature of capturing info such as Resume and JD 
-* info we are capturing is "Resume.pdf" and 'job_desc'.
-*pdf.py that will process the info in pdf and thats why we have installed 'pypdf
-* analysis.py that will triganulate the pdf info and the JD and will provde insights and next step
+## 🌐 Live Demo
 
+[Click here to try the app](https://resumeanalysis-genai.streamlit.app/)
+
+---
+
+## 📌 Features
+
+✅ **ATS Score Estimation** – Upload your resume and receive an estimated ATS-friendliness score.  
+✅ **Keyword & Skill Extraction** – Automatically extracts your skills to match with your target role.  
+✅ **Improvement Suggestions** – Get actionable recommendations to improve structure, keywords, and clarity.  
+✅ **Visual Analysis** – See missing keyword graphs and skill clouds for better alignment with your target job descriptions.  
+✅ **User-Friendly UI** – Lightweight, fast, and runs entirely on Streamlit.
+
+---
+
+## 🚀 Tech Stack
+
+- **Streamlit**: Fast UI deployment for ML apps.
+- **Python**: Core scripting and resume parsing.
+- **OpenAI API / GenAI**: For semantic extraction and feedback generation.
+- **spaCy / NLTK**: For keyword extraction and cleaning.
+- **PyPDF2 / pdfplumber**: For parsing PDF resumes reliably.
+
+---
+
+## ⚙️ Installation (Local)
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/resume-analysis-genai.git
+cd resume-analysis-genai
 ``Live Demo`` : https://resumeanalysis-genai.streamlit.app/
