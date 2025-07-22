@@ -19,4 +19,6 @@ Here you can check your resume with the job description and get the score and in
 it will have the feature of capturing info such as Resume and JD 
 * info we are capturing is "Resume.pdf" and 'job_desc'.
 *pdf.py that will process the info in pdf and thats why we have installed 'pypdf
-* analysis.py that will triganulate the pdf info and the JD and will provde insights and next step 
+* analysis.py that will triganulate the pdf info and the JD and will provde insights and next step
+
+``Live Demo`` : https://resumeanalysis-genai.streamlit.app/
